@@ -28,7 +28,7 @@ p { padding-left: 2em;}
 nav {
     text-align: center;
 	  font-size: 1.5em;
-    background-color: lavender;
+    background-color: rgb(194, 194, 255);
 }
 
 nav ul { display: flex;
@@ -38,7 +38,7 @@ nav ul { display: flex;
     margin: 0;
     padding: 0; }
 nav li { border-bottom: 1px solid lavender;
-    padding: .5em 1em;
+    padding-bottom: 1em;
    width: 100%; }
 
 nav a { text-decoration: none; 
@@ -59,14 +59,42 @@ main { background-color: white;
 
 header{ text-align: center;
         background-color: rgb(215, 215, 248);
-        font-size: 2em;
+        font-size: 1em;
         height: 128px;		 
-		padding-top: 5px;
 		padding-bottom: 5px;
     }
 
-    @media (min-width: 1024px) { 
-		@supports (display: grid) {		
-		nav ul { flex-direction: row; }		
-   }				
+    footer { background-color: rgb(215, 215, 248);
+        font-size: .60em;
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 1em;
+        border-top: 2px solid lavender;
 }
+
+@media (min-width: 600px) { 
+		header { padding-left: 0; 
+				text-align: center; }
+		h1        { font-size: 3em; }	
+		nav ul   { 	flex-flow: row nowrap;
+				justify-content: space-around; }
+		nav li    { 	border-bottom: none; }
+		h4 { margin-left: 10%; 
+		    margin-right: 10%; }
+}
+@media (min-width: 1024px) { 
+		@supports (display: grid) {
+		   header { grid-area: header; }	
+		   nav      { grid-area: nav; }
+		   main    { grid-area: main; }		
+		   footer  { grid-area: footer; }
+		   #wrapper { display: grid;
+		              grid-template:
+				         "header header" 
+						 "nav    main" 
+						 "footer footer"
+						 / 200px ; }		
+		nav ul { flex-direction: column; }	
+        header { background-image: url(images/header_logo.png); }		
+   }				
+}								

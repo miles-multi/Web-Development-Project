@@ -8,15 +8,11 @@ body { background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
-#wrapper { background-color: white;
-    padding: 0;
-    text-align: center;}
 
 img { padding-left: 10px;
     padding-right: 10px; }
-h1 {
-    font-size: 2em;
-}
+h1 { font-size: 2em;
+     padding-left: 2%; }
 h1 a {
     text-decoration: none;
     color: black;
@@ -41,19 +37,42 @@ nav ul { display: flex;
     margin: 0;
     padding: 0; }
 nav li { border-bottom: 1px solid lavender;
+    padding-top: 0.5em;
     padding-bottom: 1em;
    width: 100%; }
 
 nav a { text-decoration: none; 
         color: black;}
 nav a:hover { color: blueviolet; }
+p a { text-decoration: none;
+      color: blue;}
+p a:visited { color: blueviolet; }
 
 table {
     width: 100%;
     margin: auto;
-    text-align: center;
+    align-content: center;
     border: 2px solid lavender;
 }
+#wrapper { background-color: white;
+    padding: 0;
+    text-align: left;}
+#routestext {
+	text-align: left;
+    padding-left: 2%;
+}
+#indextext {
+    text-align: left;
+    padding-left: 2%;
+}
+#aligntable { text-align: center;}
+
+dt, dd { padding-left: 5%;
+         padding-top: 1%;
+         width: 50%; }
+
+dt { font-size: 1em;
+     text-decoration: underline; }
 
 th { width: 70px;}
 
@@ -66,6 +85,12 @@ header{ text-align: center;
         background-color: rgb(215, 215, 248);
         font-size: 1em;
         height: 128px;		 
+		padding-bottom: 5px; 
+        background-image: url(images/header_logo.png);
+		background-repeat: no-repeat;
+        background-size: auto;
+        padding-left: 105px;		 
+		padding-top: 5px;
 		padding-bottom: 5px;
     }
 
@@ -87,6 +112,7 @@ header{ text-align: center;
 		h4 { margin-left: 10%; 
 		    margin-right: 10%; }
 }
+
 @media (min-width: 1024px) { 
 		@supports (display: grid) {
 		   header { grid-area: header; }	

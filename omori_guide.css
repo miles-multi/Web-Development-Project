@@ -49,7 +49,7 @@ p a { text-decoration: none;
 p a:visited { color: blueviolet; }
 
 table {
-    width: 50%;
+    width: 200px;
     margin: auto;
     align-content: center;
     border: 2px solid lavender;
@@ -65,7 +65,8 @@ table {
     text-align: left;
     padding-left: 2%;
 }
-#aligntable { text-align: center;}
+#aligntable { text-align: center;
+	    width: 200px;}
 
 dt, dd { padding-left: 5%;
          padding-top: 1%;

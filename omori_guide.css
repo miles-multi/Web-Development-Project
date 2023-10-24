@@ -51,7 +51,6 @@ p a:visited { color: blueviolet; }
 table {
     width: 200px;
     margin: auto;
-    align-content: center;
     border: 2px solid lavender;
 }
 #wrapper { background-color: white;

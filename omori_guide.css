@@ -65,7 +65,7 @@ tr { width: 200px; }
     text-align: left;
     padding-left: 2%;
 }
-#aligntable { text-align: center;
+#aligntable { text-align: left;
 	    width: 200px;}
 
 dt, dd { padding-left: 5%;

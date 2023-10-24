@@ -112,11 +112,6 @@ header{ text-align: center;
 		nav li    { 	border-bottom: none; }
 		h4 { margin-left: 10%; 
 		    margin-right: 10%; }
-		#omoriandfriends { height: 50vh;
-    		background-image: url(images/omori_wallpaper.jpg);
-		}
-		td { display: flex;
-		   flex-direction: row;}
 }
 
 @media (min-width: 1024px) { 

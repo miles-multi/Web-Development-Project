@@ -53,6 +53,7 @@ table {
     margin: auto;
     border: 2px solid lavender;
 }
+tr { width: 200px; } 
 #wrapper { background-color: white;
     padding: 0;
     text-align: left;}

@@ -15,10 +15,18 @@ body { background-color: white;
 	flex-wrap: wrap;
 }
 
+img.emotionchart {
+	float: left;
+}
+
 .combat {
 	padding-left: 10px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+img.combat {
+	float: left;
 }
 
 img { padding-left: 10px;

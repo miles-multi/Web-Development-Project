@@ -9,6 +9,10 @@ body { background-color: white;
     background-size: 100% 100%; 
 }
 
+img.emotionchart {
+	text-align: center;
+}
+
 .combat {
 	padding-left: 10px;
 	display: flex;

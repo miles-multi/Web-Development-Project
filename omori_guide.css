@@ -19,6 +19,10 @@ img.emotionchart {
 	flex-wrap: wrap;
 }
 
+table.quests {
+	width: 200px;
+}
+
 img.combat {
 	float: left;
 }

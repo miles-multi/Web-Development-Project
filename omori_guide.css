@@ -21,6 +21,8 @@ img.emotionchart {
 
 table.quests {
 	width: 200px;
+    margin: auto;
+    border: 2px solid blue;
 }
 
 img.combat {

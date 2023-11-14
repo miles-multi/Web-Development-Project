@@ -127,6 +127,10 @@ header{ text-align: center;
 .dropdown {
    text-align: center;
   overflow: hidden;
+	border-bottom: 1px solid lavender;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+   width: 100%;
 }
 
 .dropdown .dropbtn {

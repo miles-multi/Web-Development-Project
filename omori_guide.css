@@ -74,7 +74,7 @@ table {
     border: 2px solid lavender;
 }
 tr { width: 400px;
-   border: 2px solid lavender;} 
+   border-bottom: 2px solid lavender;} 
 #wrapper { background-color: white;
     padding: 0;
     text-align: left;}

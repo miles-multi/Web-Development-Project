@@ -132,7 +132,8 @@ header{ text-align: center;
 .dropdown .dropbtn {
   font-size: 1em;  
   border: none;
-  padding: 14px 16px;
+  padding-top: 0.5em;
+    padding-bottom: 1em;
   background-color: inherit;
   font-family: inherit;
   margin: 0;

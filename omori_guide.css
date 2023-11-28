@@ -164,7 +164,7 @@ header{ text-align: center;
   display: block;
 }
 
-@media (max-width: 600px) { 
+@media (min-width: 600px) { 
 		header { padding-left: 0; 
 				text-align: center; }
 		h1        { font-size: 3em; }	
@@ -173,7 +173,7 @@ header{ text-align: center;
 		nav li    { 	border-bottom: none; }
 		h4 { margin-left: 10%; 
 		    margin-right: 10%; }
-		table { width: auto; }
+		table { width: 500px; }
 }
 
 @media (min-width: 1024px) { 

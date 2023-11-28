@@ -20,7 +20,7 @@ img.emotionchart {
 }
 
 table.quests {
-	width: 200px;
+	width: auto;
     margin: auto;
     border: 2px solid blue;
 }
@@ -69,11 +69,11 @@ p a { text-decoration: none;
 p a:visited { color: blueviolet; }
 
 table {
-    width: 400px;
+    width: auto;
     margin: auto;
     border: 2px solid lavender;
 }
-tr { width: 400px;
+tr { width: auto;
    border: 2px solid lavender;} 
 #wrapper { background-color: white;
     padding: 0;
@@ -87,7 +87,7 @@ tr { width: 400px;
     padding-left: 2%;
 }
 #aligntable { text-align: left;
-	    width: 200px;}
+	    width: auto;}
 
 dt, dd { padding-left: 5%;
          padding-top: 1%;
@@ -96,7 +96,7 @@ dt, dd { padding-left: 5%;
 dt { font-size: 1em;
      text-decoration: underline; }
 
-th { width: 70px;}
+th { width: auto;}
 
 main { background-color: white;
     display: block;

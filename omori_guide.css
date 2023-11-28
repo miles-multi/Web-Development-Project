@@ -173,6 +173,7 @@ header{ text-align: center;
 		nav li    { 	border-bottom: none; }
 		h4 { margin-left: 10%; 
 		    margin-right: 10%; }
+		table { width: auto; }
 }
 
 @media (min-width: 1024px) { 

@@ -25,6 +25,18 @@ table.quests {
     border: 2px solid blue;
 }
 
+tr.quests {
+	border-bottom: 4px solid;
+}
+
+table.combattable {
+	width: auto;
+}
+
+tr.combattable {
+	border-bottom: 4px solid;
+}
+
 img.combat {
 	float: left;
 }

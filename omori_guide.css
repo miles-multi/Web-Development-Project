@@ -164,7 +164,7 @@ header{ text-align: center;
   display: block;
 }
 
-@media (min-width: 600px) { 
+@media (max-width: 600px) { 
 		header { padding-left: 0; 
 				text-align: center; }
 		h1        { font-size: 3em; }	
